@@ -1,0 +1,21 @@
+1	Artificial intelligence is a branch of computer science.
+2	Machine learning is a subset of artificial intelligence.
+3	Deep learning is part of machine learning and artificial intelligence.
+4	Data science involves statistics, data analysis, and machine learning.
+5	Neural networks are used in deep learning.
+6	Artificial neural networks mimic the human brain.
+7	Reinforcement learning is another branch of machine learning.
+8	Support vector machines are a type of algorithm in machine learning.
+9	Clustering is an unsupervised learning technique in data science.
+10	Regression analysis is used in statistics and data science.
+11	Artificial intelligence has applications in robotics and automation.
+12	Natural language processing is a field within artificial intelligence.
+13	Computer vision is another application of artificial intelligence.
+14	Image recognition and object detection are part of computer vision.
+15	Supervised learning requires labeled data for training.
+16	Unsupervised learning does not require labeled data.
+17	Artificial intelligence helps in decision-making processes.
+18	Robotics often uses algorithms from artificial intelligence.
+19	Automation increases efficiency and reduces human error.
+20	The future of artificial intelligence is promising and evolving.
+
