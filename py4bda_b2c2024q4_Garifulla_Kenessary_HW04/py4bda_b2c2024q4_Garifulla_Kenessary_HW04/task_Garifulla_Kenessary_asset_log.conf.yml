@@ -1,0 +1,38 @@
+version: 1
+disable_existing_loggers: False
+
+formatters:
+  simple:
+    class: logging.Formatter
+    format: "%(asctime)s %(name)s %(levelname)s %(message)s"
+    datefmt: "%Y-%m-%d %H:%M:%S"
+
+handlers:
+  file_debug:
+    class: logging.FileHandler
+    filename: asset_log.debug
+    level: DEBUG
+    formatter: simple
+
+  file_warn:
+    class: logging.FileHandler
+    filename: asset_log.warn
+    level: WARNING
+    formatter: simple
+
+  console_info:
+    class: logging.StreamHandler
+    level: INFO
+    formatter: simple
+    stream: ext://sys.stderr
+
+loggers:
+  asset:
+    level: DEBUG
+    handlers: [file_debug, file_warn, console_info]
+    propagate: False
+
+root:
+  level: INFO
+  handlers: [console_info]
+
